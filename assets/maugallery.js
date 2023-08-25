@@ -129,7 +129,6 @@
 			$(`#${lightboxId}`).modal("toggle")
 		},
 		prevImage() {
-			console.log("clicked prev")
 			let activeImage = null
 			$("img.gallery-item").each(function () {
 				if ($(this).attr("src") === $(".lightboxImage").attr("src")) {
